@@ -76,8 +76,9 @@ body {
 	z-index: 1;
 }
 		</style>
-		<link id="-gd-engine-icon" rel="icon" type="image/png" href="bariobros.icon.png" />
-<link rel="apple-touch-icon" href="bariobros.apple-touch-icon.png"/>
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
+<link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
+<link rel="manifest" href="index.manifest.json">
 
 	</head>
 	<body>
@@ -90,15 +91,15 @@ body {
 		</noscript>
 
 		<div id="status">
-			<img id="status-splash" src="bariobros.png" alt="">
+			<img id="status-splash" src="index.png" alt="">
 			<progress id="status-progress"></progress>
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="bariobros.js"></script>
+		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"bariobros","experimentalVK":false,"fileSizes":{"bariobros.pck":705680,"bariobros.wasm":43016933},"focusCanvas":true,"gdextensionLibs":[]};
-const GODOT_THREADS_ENABLED = false;
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":114928,"index.wasm":39989738},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":"index.service.worker.js"};
+const GODOT_THREADS_ENABLED = true;
 const engine = new Engine(GODOT_CONFIG);
 
 (function () {

@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1736035983|1676425063';
+const CACHE_VERSION = '1736036405|2097881799';
 /** @type {string} */
 const CACHE_PREFIX = 'BaseBros-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
